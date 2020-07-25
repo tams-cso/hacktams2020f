@@ -3,7 +3,7 @@
    z-index: 1000;
 }
 
-.fancy #mc-embedded-subscribe, #mce-EMAIL {
+/* .fancy #mc-embedded-subscribe, #mce-EMAIL {
    border: none;
    padding: 10px;
 
@@ -65,7 +65,7 @@
 
 .fancy #mc-embedded-subscribe:focus, #mce-EMAIL:focus {
    outline: none;
-}
+} */
 
 
 
