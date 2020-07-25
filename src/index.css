@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrap {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrap {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrap {
+    width: 95%;
+  }
 }

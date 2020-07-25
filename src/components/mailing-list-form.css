@@ -1,0 +1,123 @@
+.fancy, .normal {
+   position: relative;
+   z-index: 1000;
+}
+
+.fancy #mc-embedded-subscribe, #mce-EMAIL {
+   border: none;
+   padding: 10px;
+
+   font-size: 26px;
+   font-family: '5 Years Old';
+
+   color: #fff;
+}
+
+.fancy #mce-EMAIL {
+   margin-right: 20px;
+   margin-top: 10px;
+   width: 380px;
+   height: 100px;
+   padding-left: 26px;
+   padding-top: 32px;
+   
+   background: url('/images/cloud2.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.fancy #mce-EMAIL::-webkit-input-placeholder {
+   color: #eee9ff;
+}
+
+.fancy #mce-EMAIL:-ms-input-placeholder {
+   color: #eee9ff;
+}
+
+.fancy #mce-EMAIL::-ms-input-placeholder {
+   color: #eee9ff;
+}
+
+.fancy #mce-EMAIL:-moz-input-placeholder {
+   color: #eee9ff;
+}
+
+.fancy #mce-EMAIL::-moz-input-placeholder {
+   color: #eee9ff;
+}
+
+.fancy #mc-embedded-subscribe {
+   width: 190px;
+   height: 130px;
+   transform: scale(1);
+
+   transition: transform 0.3s;
+   cursor: pointer;
+
+   background: url('/images/cloud3.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.fancy #mc-embedded-subscribe:hover {
+   transform: scale(1.1);
+}
+
+.fancy #mc-embedded-subscribe:focus, #mce-EMAIL:focus {
+   outline: none;
+}
+
+
+
+
+.normal #mc-embedded-subscribe, #mce-EMAIL {
+   border: 2px #5981e0 solid;
+   background: #fff;
+
+   padding: 10px;
+
+   font-size: 26px;
+   font-family: '5 Years Old';
+
+   color: #000;
+}
+
+.normal #mce-EMAIL {
+   margin-right: 20px;
+   margin-top: 10px;
+   width: 380px;
+   height: 30px;
+   padding: 8px;
+}
+
+.normal #mce-EMAIL:focus {
+   border-width: 3px;
+   padding: 7px;
+   outline: none;
+}
+
+.normal #mc-embedded-subscribe {
+   display: inline-block;
+   width: 190px;
+   height: 50px;
+   padding: 8px;
+
+   transition: color 0.3s, background 0.3s;
+   cursor: pointer;
+}
+
+.normal #mc-embedded-subscribe:hover {
+   background: #5981e0;
+   color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+   .normal #mc-embedded-subscribe {
+      width: 400px;
+      margin-top: 10px;
+   }
+
+   .normal #mc-embedded-subscribe, .normal #mce-EMAIL {
+      margin-left: calc(50% - 200px);
+   }
+}

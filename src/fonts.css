@@ -1,0 +1,24 @@
+@font-face {
+   font-family: '5 Years Old';
+   src: url('/fonts/5yearsoldfont/5yearsoldfont.ttf');
+}
+
+@font-face {
+   font-family: '7 Hours';
+   src: url('/fonts/7-Hours/7hours.ttf');
+}
+
+@font-face {
+   font-family: 'A Black Crown';
+   src: url('/fonts/ablackcrown/ABlackCrown.ttf');
+}
+
+@font-face {
+   font-family: 'Annie Use Your Telescope';
+   src: url('/fonts/annie-use-your-telescope/AnnieUseYourTelescope-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Cadmium Egg';
+   src: url('/fonts/cadmium-egg/cadmi.ttf');
+}

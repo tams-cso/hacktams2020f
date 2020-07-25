@@ -1,0 +1,40 @@
+.duck-outer {
+   position: absolute;
+   right: calc(20vmax + 20vmin);
+   bottom: calc(20px + 20vmax + 20vmin);
+}
+
+.duck {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: rotate(0);
+
+   animation: duckBounce 5s infinite;
+   animation-timing-function: ease-in-out;
+   animation-delay: -2s;
+
+   width: calc(20vmax + 20vmin);
+   height: calc(20vmax + 20vmin);
+
+   background-image: url('/images/duck-NOTFORFINAL.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+@keyframes duckBounce {
+   0% {
+      left: 20px;
+      transform: rotate(3deg);
+   }
+
+   50% {
+      left: -20px;
+      transform: rotate(-3deg);
+   }
+
+   100% {
+      left: 20px;
+      transform: rotate(3deg);
+   }
+}

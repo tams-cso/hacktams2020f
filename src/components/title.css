@@ -1,0 +1,33 @@
+h1, h2 {
+   color: #5627BF;
+   font-family: '5 Years Old';
+   margin: 0;
+   letter-spacing: -0.1em;
+   position: relative;
+   z-index: 1000;
+}
+
+h1 {
+   font-size: 7em;
+   padding-top: 200px;
+}
+
+h2 {
+   font-size: 3em;
+}
+
+@media screen and (max-width: 750px) {
+   h1, h2 {
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   h1 {
+      font-size: 5em;
+   }
+
+   h2 {
+      font-size: 2em;
+   }
+}
