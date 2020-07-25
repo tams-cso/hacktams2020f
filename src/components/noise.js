@@ -6,8 +6,8 @@ const Noise = () => (
       width: '100vw',
       height: '100vh',
       background: 'url("/images/noise.png")',
-      opacity: 0.25,
-      backgroundSize: '25%',
+      opacity: 0.2,
+      backgroundSize: '440px',
       zIndex: 2
    }} />
 );
