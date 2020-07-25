@@ -134,7 +134,7 @@
       width: 280px;
    }
 
-   .normal #mc-embedded-subscribe, #mce-EMAIL {
+   .normal #mc-embedded-subscribe, .normal #mce-EMAIL {
       margin-left: calc(50% - 150px);
       font-size: 18px;
    }
