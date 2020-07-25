@@ -31,3 +31,19 @@ h2 {
       font-size: 2em;
    }
 }
+
+@media screen and (max-width: 350px) {
+   h1 {
+      font-size: 4em;
+   }
+
+   h2 {
+      font-size: 2em;
+   }
+}
+
+@media screen and (max-height: 480px) {
+   h1 {
+      padding-top: 50px;
+   }
+}

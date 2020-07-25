@@ -121,3 +121,18 @@
       margin-left: calc(50% - 200px);
    }
 }
+
+@media screen and (max-width: 450px) {
+   .normal #mc-embedded-subscribe {
+      width: 300px;
+      margin-top: 10px;
+   }
+
+   .normal #mce-EMAIL {
+      width: 280px;
+   }
+
+   .normal #mc-embedded-subscribe, #mce-EMAIL {
+      font-size: 18px;
+   }
+}
