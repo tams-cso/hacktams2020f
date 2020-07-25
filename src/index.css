@@ -8,6 +8,12 @@ body {
   overflow-x: hidden;
 }
 
+body, html {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
