@@ -3,8 +3,7 @@ import './landing.css';
 
 import Title from './title';
 import Water from './water';
-import Duck from './duck';
-import Space from './space';
+import Clouds from './clouds';
 import MailingListForm from './mailing-list-form';
 
 const Landing = () => (
@@ -14,9 +13,8 @@ const Landing = () => (
          <MailingListForm />
          <Water far />
          <Water background />
-         <Duck />
          <Water />
-         <Space />
+         <Clouds />
       </div>
    </section>
 );
