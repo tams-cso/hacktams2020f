@@ -1,5 +1,5 @@
 .water {
-   background: url('/images/waves.png');
+   background: url('/images/waves-raw.png');
    background-size: contain;
    background-repeat: no-repeat;
 
@@ -75,5 +75,11 @@
 
    100%  {
       background-position-x: 20px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .water {
+      bottom: calc(-70px - 37vh);
    }
 }

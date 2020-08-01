@@ -1,3 +1,7 @@
+.title {
+   padding-top: 200px;
+}
+
 h1, h2 {
    color: #5627BF;
    font-family: '5 Years Old';
@@ -9,7 +13,6 @@ h1, h2 {
 
 h1 {
    font-size: 7em;
-   padding-top: 200px;
 }
 
 h2 {
@@ -19,6 +22,15 @@ h2 {
 @media screen and (max-width: 750px) {
    h1, h2 {
       text-align: center;
+   }
+
+   h1::after {
+      left: 5vw;
+   }
+
+   h2::after {
+      left: 18vw;
+      top: 14px !important;
    }
 }
 
@@ -42,8 +54,61 @@ h2 {
    }
 }
 
-@media screen and (max-height: 480px) {
-   h1 {
+@media screen and (max-height: 580px) {
+   .title {
       padding-top: 50px;
+   }
+}
+
+@media screen and (max-height: 480px) {
+   h2::after {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: -1;
+      top: 10px;
+      background: #fff;
+      height: 30px;
+      width: 300px;
+      animation: expandWidthTo300 1s ease-in-out;
+   }
+}
+
+@media screen and (max-height: 400px) {
+   h1::after {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: -1;
+      top: 40px;
+      background: #fff;
+      height: 80px;
+      width: 470px;
+      animation: expandWidthTo470 1s ease-in-out;
+      animation-delay: -0.3s;
+   }
+}
+
+@keyframes expandWidthTo470 {
+   from {
+      width: 0px;
+   }
+
+   to {
+      width: 470px;
+   }
+}
+
+@keyframes expandWidthTo300 {
+   0% {
+      width: 0px;
+   }
+
+   30% {
+      width: 0px;
+   }
+
+   100% {
+      width: 300px;
    }
 }

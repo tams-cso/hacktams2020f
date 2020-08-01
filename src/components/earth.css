@@ -6,8 +6,8 @@
    height: 40vmin;
 
    position: absolute;
-   top: 150vh;
-   right: 10vw;
+   top: 20vh;
+   right: -13vmin;
 
    animation: moveEarth 10s infinite ease-in-out;
 }

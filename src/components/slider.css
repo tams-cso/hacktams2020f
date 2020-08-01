@@ -1,0 +1,16 @@
+.active-slide {
+   height: 20px;
+   background: #c55dc3;
+   position: absolute;
+   top: 20px;
+   z-index: -1;
+   transition: width 0.3s;
+}
+
+.slider h3 {
+   cursor: pointer;
+}
+
+.slider p {
+   width: 70%;
+}

@@ -1,4 +1,41 @@
 section#space {
    width: 100vw;
    height: 110vh;
+   z-index: 3;
+   position: relative;
+}
+
+#space h2 {
+   margin-bottom: 40px;
+}
+
+#space h3 {
+   font-family: '5 Years Old';
+   color: #fff;
+   font-size: 2em;
+   margin: 0.4em 0;
+   z-index: 10;
+   position: relative;
+}
+
+#space p {
+   font-family: 'Inconsolata';
+   color: #fff;
+   font-size: 1.6em;
+   margin: 2em 0;
+   line-height: 1.3em;
+}
+
+@media screen and (max-width: 600px) {
+   #space h2 {
+      font-size: 2.2em;
+   }
+   
+   #space h3 {
+      font-size: 1.6em;
+   }
+
+   #space p {
+      font-size: 1.2em;
+   }
 }
