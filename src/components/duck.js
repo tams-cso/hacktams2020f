@@ -3,10 +3,10 @@ import './duck.css';
 
 const Duck = (props) => (
    <div className='duck-outer'>
-      <div className='duck' style={{
-         top: props.sceneIndex === 0 ? 0 : '40vw'
-      }}>
-
+         <div className='duck' style={{
+            top: props.sceneIndex === 0 ? 0 : '70vh',
+            backgroundSize: props.sceneIndex === 0 ? '90%' : '20%',
+         }}>
       </div>
    </div>
 )

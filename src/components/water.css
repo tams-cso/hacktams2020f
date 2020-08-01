@@ -7,7 +7,7 @@
    height: calc(300px + 20vh);
 
    position: absolute;
-   bottom: calc(-50px - 30vh + 5vw);
+   bottom: calc(-100px - 30vh + 8vw);
    left: -70px;
    z-index: 100;
 

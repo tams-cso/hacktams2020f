@@ -1,0 +1,31 @@
+.earth {
+   background: url('/images/earth.png');
+   background-size: contain;
+
+   width: 40vmin;
+   height: 40vmin;
+
+   position: absolute;
+   top: 150vh;
+   right: 10vw;
+
+   animation: moveEarth 10s infinite ease-in-out;
+}
+
+@keyframes moveEarth {
+   0% {
+      transform: rotate(-3deg) scale(1);
+   }
+
+   50% {
+      transform: rotate(3deg) scale(1.05);
+   }
+
+   100% {
+      transform: rotate(-3deg) scale(1);
+   }
+}
+
+@media screen and (max-width: 600px) {
+
+}
