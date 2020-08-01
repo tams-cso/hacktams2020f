@@ -13,7 +13,7 @@
 
    animation: duckBounce 5s infinite;
    animation-timing-function: ease-in-out;
-   animation-delay: -2s;
+   animation-delay: -1.5s;
 
    width: calc(20vmax + 20vmin);
    height: calc(20vmax + 20vmin);
@@ -21,6 +21,10 @@
    background-image: url('/images/duck-NOTFORFINAL.png');
    background-repeat: no-repeat;
    background-size: contain;
+
+   transition: top 5s;
+   transition-timing-function: ease-in-out;
+   transition-delay: 1.5s;
 }
 
 @keyframes duckBounce {

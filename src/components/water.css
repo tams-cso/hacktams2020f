@@ -1,26 +1,28 @@
 .water {
    background: url('/images/waves.png');
-   background-size: cover;
+   background-size: contain;
    background-repeat: no-repeat;
 
    width: calc(100vw + 140px);
-   height: 20vw;
-   max-height: 300px;
+   height: calc(300px + 20vh);
 
    position: absolute;
-   bottom: 0;
+   bottom: calc(-50px - 30vh + 5vw);
    left: -70px;
    z-index: 100;
 
    animation: moveWater 5s infinite;
    animation-timing-function: ease-in-out;
+   
+   transition: left 2s ease;
+   transition-delay: 1s;
 }
 
 .water.background {
    z-index: 2;
 
    height: 27vw;
-   max-height: 400px;
+   height: calc(400px + 20vh);
 
    transform: scaleX(-1);
 
@@ -32,12 +34,20 @@
    z-index: 2;
 
    height: 34vw;
-   max-height: 450px;
+   height: calc(450px + 20vh);
 
    transform: scaleX(1);
 
    animation-delay: -4s;
    animation-name: moveWater;
+}
+
+.water.part-left {
+   left: calc(-100vw - 140px - 100px) !important;
+}
+
+.water.part-right {
+   left: calc(100vw + 140px + 100px) !important;
 }
 
 @keyframes moveWater {
