@@ -1,14 +1,31 @@
 import React from 'react';
 import './fonts.css';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import Noise from './components/noise';
 import Landing from './components/landing';
 
+import RegistrationForm from './components/RegistrationForm/registration-form';
+
 const App = () => (
-  <div>
-    <Noise />
-    <Landing />
-  </div>
+  <Router>
+    <Switch>
+      <Route path='/register'>
+        <RegistrationForm />
+      </Route>
+      <Route path='/'>
+        <div>
+          <Noise />
+          <Landing />
+        </div>
+      </Route>
+    </Switch>
+  </Router>
 )
 
 export default App;
