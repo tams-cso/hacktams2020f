@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-body, html {
+body, html, #root {
   overflow: hidden;
   position: relative;
   height: 100%;

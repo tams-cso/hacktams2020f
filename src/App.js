@@ -10,14 +10,13 @@ import {
 import Noise from './components/noise';
 import Landing from './components/landing';
 
+import RegistrationForm from './components/RegistrationForm/registration-form';
+
 const App = () => (
   <Router>
     <Switch>
-      
-      <Route path='/registration'>
-        <div>
-          Registration
-        </div>
+      <Route path='/register'>
+        <RegistrationForm />
       </Route>
       <Route path='/'>
         <div>
