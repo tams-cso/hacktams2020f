@@ -11,12 +11,16 @@ import Noise from './components/noise';
 import Landing from './components/landing';
 
 import RegistrationForm from './components/RegistrationForm/registration-form';
+import VolunteerForm from './components/VolunteerForm/volunteer-form';
 
 const App = () => (
   <Router>
     <Switch>
       <Route path='/register'>
         <RegistrationForm />
+      </Route>
+      <Route path='/volunteer'>
+        <VolunteerForm />
       </Route>
       <Route path='/'>
         <div>
