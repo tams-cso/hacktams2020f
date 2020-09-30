@@ -2,9 +2,9 @@ import React from 'react';
 
 const Noise = () => (
    <div style={{
-      position: 'absolute',
+      position: 'fixed',
       width: '100vw',
-      height: '240vh',
+      height: '100vh',
       background: 'url("/images/noise.png")',
       opacity: 0.2,
       backgroundSize: '440px',

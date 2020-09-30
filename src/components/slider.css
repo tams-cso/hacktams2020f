@@ -13,4 +13,5 @@
 
 .slider p {
    width: 70%;
+   min-height: calc(30vh + 50px);
 }

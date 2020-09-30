@@ -13,7 +13,7 @@ const Background = (props) => (
                height: '100vh',
                position: 'fixed',
                zIndex: -9999,
-               transition: 'opacity 3s'
+               transition: 'opacity 1.5s'
             }} key={index} />
          )
       }

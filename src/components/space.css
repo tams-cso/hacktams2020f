@@ -1,6 +1,6 @@
 section#space {
    width: 100vw;
-   height: 110vh;
+   min-height: 110vh;
    z-index: 3;
    position: relative;
 }
@@ -16,14 +16,6 @@ section#space {
    margin: 0.4em 0;
    z-index: 10;
    position: relative;
-}
-
-#space p {
-   font-family: 'Inconsolata';
-   color: #fff;
-   font-size: 1.6em;
-   margin: 2em 0;
-   line-height: 1.3em;
 }
 
 @media screen and (max-width: 600px) {

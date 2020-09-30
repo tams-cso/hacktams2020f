@@ -1,0 +1,38 @@
+.sponsors {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.sponsor {
+   display: block;
+   margin: 30px;
+}
+
+.sponsor img {
+   width: 100%;
+   filter: grayscale();
+   transform: scale(1);
+   transition: filter 0.5s, transform 0.4s;
+}
+
+.sponsor:hover img {
+   filter: none;
+   transform: scale(1.2);
+}
+
+.sponsor.big {
+   max-width: 40vw;
+   flex-grow: 3;
+}
+
+.sponsor.medium {
+   max-width: 27vw;
+   flex-grow: 2;
+}
+
+.sponsor.small {
+   max-width: 14vw;
+   flex-grow: 1;
+}

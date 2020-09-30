@@ -21,7 +21,6 @@
 .water.background {
    z-index: 2;
 
-   height: 27vw;
    height: calc(400px + 20vh);
 
    transform: scaleX(-1);

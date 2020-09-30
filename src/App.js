@@ -1,43 +1,35 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './fonts.css';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import Noise from './components/noise';
-import Background from './components/background';
 import Landing from './components/landing';
-import Duck from './components/duck';
-import Space from './components/space';
-import calculateSceneIndex from './components/calculateSceneIndex';
 
-class App extends Component {
-  constructor (props) {
-    super(props);
+import RegistrationForm from './components/RegistrationForm/registration-form';
+import VolunteerForm from './components/VolunteerForm/volunteer-form';
 
-    this.state = {
-      sceneIndex: 0
-    }
-  }
-
-  updateSceneIndex = () => {
-    this.setState({ sceneIndex: calculateSceneIndex() });
-  }
-
-  componentDidMount = () => {
-    document.body.addEventListener('scroll', this.updateSceneIndex);
-  }
-
-  componentWillUnmount = () => {
-    document.body.removeEventListener('scroll', this.updateSceneIndex);
-  }
-
-  render = () => (
-    <div>
-      <Background sceneIndex={this.state.sceneIndex} />
-      <Noise />
-      <Landing sceneIndex={this.state.sceneIndex} />
-      <Space />
-      <Duck sceneIndex={this.state.sceneIndex} />
-    </div>
-  )
-}
+const App = () => (
+  <Router>
+    <Switch>
+      <Route path='/register'>
+        <RegistrationForm />
+      </Route>
+      <Route path='/volunteer'>
+        <VolunteerForm />
+      </Route>
+      <Route path='/'>
+        <div>
+          <Noise />
+          <Landing />
+        </div>
+      </Route>
+    </Switch>
+  </Router>
+)
 
 export default App;

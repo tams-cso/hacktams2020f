@@ -1,22 +1,47 @@
 import React from 'react';
 import './landing.css';
 
-import Title from './title';
-import Water from './water';
-import Clouds from './clouds';
-import MailingListForm from './mailing-list-form';
+import Background from './background';
+import Grass from './grass';
+import Duck from './duck';
+import Space from './space';
+import calculateSceneIndex from './calculateSceneIndex';
+import debounce from './debounce';
+import TitleWithWater from './title-with-water';
 
-const Landing = (props) => (
-   <section className='landing'>
-      <div className='wrap'>
-         <Title />
-         <MailingListForm />
-         <Water far part={props.sceneIndex !== 0 ? 'left' : 'none'} />
-         <Water background part={props.sceneIndex !== 0 ? 'right' : 'none'}/>
-         <Water part={props.sceneIndex !== 0 ? 'left' : 'none'}/>
-         <Clouds />
-      </div>
-   </section>
-);
+class Landing extends React.Component {
+  constructor (props) {
+    super(props);
+
+    this.state = {
+      sceneIndex: 0
+    }
+  }
+
+  updateSceneIndex = () => {
+    console.log(calculateSceneIndex())
+    this.setState({ sceneIndex: calculateSceneIndex() });
+  }
+
+  updateSceneIndexDebounced = debounce(this.updateSceneIndex, 50);
+
+  componentDidMount = () => {
+    window.addEventListener('scroll', this.updateSceneIndexDebounced);
+  }
+
+  componentWillUnmount = () => {
+    window.removeEventListener('scroll', this.updateSceneIndexDebounced);
+  }
+
+  render = () => (
+    <div>
+      <Background sceneIndex={this.state.sceneIndex} />
+      <TitleWithWater sceneIndex={this.state.sceneIndex} />
+      <Space />
+      <Grass />
+      <Duck sceneIndex={this.state.sceneIndex} />
+    </div>
+  )
+}
 
 export default Landing;

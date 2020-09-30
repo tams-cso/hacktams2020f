@@ -8,8 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-body, html {
-  overflow-x: hidden;
+body, html, #root {
   position: relative;
   height: 100%;
 }
@@ -17,6 +16,20 @@ body, html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  font-family: 'Inconsolata';
+  color: #fff;
+  font-size: 1.6em;
+  margin: 2em 0;
+  line-height: 1.3em;
+  position: relative;
+  z-index: 100;
+}
+
+a {
+  color: #5627BF;
 }
 
 .wrap {

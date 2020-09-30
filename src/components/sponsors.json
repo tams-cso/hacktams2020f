@@ -1,0 +1,62 @@
+{
+   "big": [
+      {
+         "name": "Linode",
+         "alt": "Linode — Silver Sponsor",
+         "url": "https://www.linode.com/",
+         "logo": "/images/sponsors/linode-logo-blk-rgb-minified-white.svg"
+      }
+   ],
+   "medium": [
+      {
+         "name": "Balsamiq",
+         "alt": "Balsamiq — Bronze Sponsor",
+         "url": "https://balsamiq.com/",
+         "logo": "/images/sponsors/balsamiq-logo-screen.svg"
+      },
+      {
+         "name": "Stoke",
+         "alt": "Stoke Coworking — Bronze Sponsor",
+         "url": "https://stokedenton.com/",
+         "logo": "/images/sponsors/Stoke_RGB.png"
+      }
+   ],
+   "small": [
+      {
+         "name": "echoAR",
+         "alt": "Echo AR — In-kind Sponsor",
+         "url": "https://www.echoar.xyz/",
+         "logo": "/images/sponsors/echoAR-Logo2020.png"
+      },
+      {
+         "name": "Wolfram Language",
+         "alt": "Wolfram Language — In-kind Sponsor",
+         "url": "https://www.wolfram.com/language/",
+         "logo": "/images/sponsors/wolfram-language-text-logo.png"
+      },
+      {
+         "name": "Sashido",
+         "alt": "Sashido — In-kind Sponsor",
+         "url": "https://www.sashido.io/en/",
+         "logo": "/images/sponsors/sashido-logo-for-sites.png"
+      },
+      {
+         "name": "Art of Problem Solving",
+         "alt": "Art of Problem Solving — In-kind Sponsor",
+         "url": "https://artofproblemsolving.com/",
+         "logo": "/images/sponsors/AoPS_Main_Logo.png"
+      },
+      {
+         "name": "repl.it",
+         "alt": "repl.it — In-kind Sponsor",
+         "url": "https://repl.it//",
+         "logo": "/images/sponsors/replit-light-logo.svg"
+      },
+      {
+         "name": "A Supporter",
+         "alt": "A Supporter — Silver Sponsor",
+         "url": "https://nationalpoetryday.co.uk/poem/high-flight/",
+         "logo": "/images/sponsors/a-supporter.png"
+      }
+   ]
+}
