@@ -4,7 +4,7 @@
          "name": "Linode",
          "alt": "Linode — Silver Sponsor",
          "url": "https://www.linode.com/",
-         "logo": "/images/sponsors/linode-logo-blk-rgb-minified-white.svg"
+         "logo": "/images/sponsors/linode-2.svg"
       }
    ],
    "medium": [
@@ -12,13 +12,13 @@
          "name": "Balsamiq",
          "alt": "Balsamiq — Bronze Sponsor",
          "url": "https://balsamiq.com/",
-         "logo": "/images/sponsors/balsamiq-logo-screen.svg"
+         "logo": "/images/sponsors/balsamiq.svg"
       },
       {
          "name": "Stoke",
          "alt": "Stoke Coworking — Bronze Sponsor",
          "url": "https://stokedenton.com/",
-         "logo": "/images/sponsors/Stoke_RGB.png"
+         "logo": "/images/sponsors/stoke.png"
       }
    ],
    "small": [
@@ -26,31 +26,43 @@
          "name": "echoAR",
          "alt": "Echo AR — In-kind Sponsor",
          "url": "https://www.echoar.xyz/",
-         "logo": "/images/sponsors/echoAR-Logo2020.png"
+         "logo": "/images/sponsors/echoar.png"
       },
       {
          "name": "Wolfram Language",
          "alt": "Wolfram Language — In-kind Sponsor",
          "url": "https://www.wolfram.com/language/",
-         "logo": "/images/sponsors/wolfram-language-text-logo.png"
+         "logo": "/images/sponsors/wolfram.png"
+      },
+      {
+         "name": "Sticker Mule",
+         "alt": "Sticker Mule — In-kind Sponsor",
+         "url": "https://www.stickermule.com/",
+         "logo": "/images/sponsors/sticker-mule.svg"
       },
       {
          "name": "Sashido",
          "alt": "Sashido — In-kind Sponsor",
          "url": "https://www.sashido.io/en/",
-         "logo": "/images/sponsors/sashido-logo-for-sites.png"
+         "logo": "/images/sponsors/sashido.png"
+      },
+      {
+         "name": "Streamyard",
+         "alt": "Streamyard — In-kind Sponsor",
+         "url": "https://streamyard.com/",
+         "logo": "/images/sponsors/streamyard.svg"
       },
       {
          "name": "Art of Problem Solving",
          "alt": "Art of Problem Solving — In-kind Sponsor",
          "url": "https://artofproblemsolving.com/",
-         "logo": "/images/sponsors/AoPS_Main_Logo.png"
+         "logo": "/images/sponsors/aops.png"
       },
       {
          "name": "repl.it",
          "alt": "repl.it — In-kind Sponsor",
          "url": "https://repl.it//",
-         "logo": "/images/sponsors/replit-light-logo.svg"
+         "logo": "/images/sponsors/replit.svg"
       },
       {
          "name": "A Supporter",
