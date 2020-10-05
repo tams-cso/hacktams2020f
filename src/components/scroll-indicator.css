@@ -1,0 +1,44 @@
+.scroll-indicator {
+   width: 20px;
+   height: 40px;
+   border-radius: 999px;
+   border: 2px white solid;
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   margin: 100px auto;
+   z-index: 100;
+}
+
+.scroll-indicator .ball {
+   width: 10px;
+   height: 10px;
+   border-radius: 999px;
+   border: 2px white solid;
+   animation: moveBallDown 2.5s infinite ease-out;
+   position: absolute;
+}
+
+@keyframes moveBallDown {
+   0% {
+      top: 3px;
+      opacity: 1;
+      transform: scale(1);
+   }
+
+   50% {
+      opacity: 1;
+   }
+
+   80% {
+      top: 23px;
+      opacity: 0;
+      transform: scale(0.5);
+   }
+
+   100% {
+      top: 23px;
+      opacity: 0;
+      transform: scale(0.5);
+   }
+}

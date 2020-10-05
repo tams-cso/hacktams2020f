@@ -1,5 +1,63 @@
-.landing {
-   background: linear-gradient(#E8E2EF, #EEC2ED);
+.titleWithWater {
    width: 100%;
-   height: 100vh;
+   min-height: 110vh;
+}
+
+.button {
+   border: 2px #5627BF solid;
+   background: #fff;
+   color: #5627BF;
+
+   font-size: 26px;
+   font-family: '5 Years Old';
+   
+   display: inline-flex;
+   width: 200px;
+   height: 40px;
+   padding: 8px;
+   margin-top: 10px;
+
+   transition: color 0.3s, background 0.3s;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   align-items: center;
+   justify-content: space-around;
+
+   position: relative;
+   z-index: 100;
+}
+
+.button:hover {
+   background: #5627BF;
+   color: #fff;
+}
+
+.under-button {
+   display: block;
+   margin-top: 12px;
+   width: 200px;
+
+   font-family: '5 Years Old';
+   font-size: 20px;
+
+   position: relative;
+   z-index: 100;
+}
+
+@media screen and (max-width: 750px) {
+   .button, .under-button {
+      width: 400px;
+      margin-left: calc(50% - 200px);
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .button, .under-button {
+      width: 300px;
+      margin-left: calc(50% - 150px);
+      font-size: 18px;
+      text-align: center;
+   }
 }

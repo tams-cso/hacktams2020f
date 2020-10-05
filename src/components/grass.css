@@ -1,0 +1,52 @@
+.grass-container {
+   min-height: 100vh;
+   position: relative;
+   bottom: -30px;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+}
+
+.grass {
+   background: url('/images/grass.png');
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: contain;
+   position: absolute;
+   z-index: 1;
+   width: 100vw;
+   height: 37vw;
+   bottom: 0;
+}
+
+.grass-duck {
+   position: absolute;
+   bottom: 10px;
+   right: 0;
+   z-index: -1;
+
+   background: url('/images/duck-NOTFORFINAL.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+
+   width: 40vw;
+   height: 40vw;
+   max-width: 400px;
+   max-height: 400px;
+   
+   transform: rotate(15deg);
+}
+
+@media screen and (min-width: 1200px) {
+   .grass {
+      background-size: 60%;
+      background-repeat: repeat-x;
+   }
+}
+
+@media screen and (min-width: 1800px) {
+   .grass {
+      background-size: 40%;
+      background-repeat: repeat-x;
+   }
+}

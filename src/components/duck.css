@@ -9,17 +9,26 @@
    top: 0;
    left: 0;
    transform: rotate(0);
+   z-index: 31;
 
    animation: duckBounce 5s infinite;
    animation-timing-function: ease-in-out;
-   animation-delay: -2s;
+   animation-delay: -1.5s;
 
    width: calc(20vmax + 20vmin);
    height: calc(20vmax + 20vmin);
 
    background-image: url('/images/duck-NOTFORFINAL.png');
    background-repeat: no-repeat;
-   background-size: contain;
+   background-position: center;
+
+   transition: top 3s, background-size 3s;
+   transition-timing-function: ease-in-out;
+   transition-delay: 0.5s;
+}
+
+.duck.inspace {
+   animation: duckRotate 15s infinite linear, duckInSpace 9s infinite ease-in-out;
 }
 
 @keyframes duckBounce {
@@ -36,5 +45,37 @@
    100% {
       left: 20px;
       transform: rotate(3deg);
+   }
+}
+
+@keyframes duckRotate {
+   0% {
+      transform: rotate(0deg);
+   }
+
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
+@keyframes duckInSpace {
+   0% {
+      margin-top: 50px;
+
+   }
+
+   50% {
+      margin-top: -50px;
+
+   }
+
+   100% {
+      margin-top: 50px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .duck-outer {
+      bottom: calc(10px + 15vmax + 15vmin);
    }
 }

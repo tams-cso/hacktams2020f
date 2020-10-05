@@ -1,23 +1,26 @@
 .water {
-   background: url('/images/waves.png');
-   background-size: cover;
+   background: url('/images/waves-raw.png');
+   background-size: contain;
    background-repeat: no-repeat;
 
    width: calc(100vw + 140px);
-   height: 18vw;
-   max-height: 300px;
+   height: calc(300px + 20vh);
 
    position: absolute;
-   bottom: 0;
+   bottom: calc(-100px - 30vh + 8vw);
    left: -70px;
+   z-index: 32;
 
    animation: moveWater 5s infinite;
    animation-timing-function: ease-in-out;
+   
+   transition: left 2s ease;
 }
 
 .water.background {
-   height: 25vw;
-   max-height: 350px;
+   z-index: 29;
+
+   height: calc(400px + 20vh);
 
    transform: scaleX(-1);
 
@@ -26,13 +29,25 @@
 }
 
 .water.far {
-   height: 30vw;
-   max-height: 400px;
+   z-index: 28;
+
+   height: 34vw;
+   height: calc(450px + 20vh);
 
    transform: scaleX(1);
 
    animation-delay: -4s;
    animation-name: moveWater;
+}
+
+.water.part-left {
+   left: calc(-100vw - 140px - 100px) !important;
+   animation: none !important;
+}
+
+.water.part-right {
+   left: calc(100vw + 140px + 100px) !important;
+   animation: none !important;
 }
 
 @keyframes moveWater {
@@ -60,5 +75,11 @@
 
    100%  {
       background-position-x: 20px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .water {
+      bottom: calc(-70px - 37vh);
    }
 }

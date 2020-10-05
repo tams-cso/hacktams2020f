@@ -1,68 +1,33 @@
-.space {
-   position: absolute;
-   width: 50vw;
-   right: 40px;
-   top: 40px;
+section#space {
+   width: 100vw;
+   min-height: 110vh;
+   z-index: 3;
+   position: relative;
 }
 
-.space-duck {
-   position: absolute;
-   margin-left: 40%;
-   margin-top: 50px;
+#space h2 {
+   margin-bottom: 40px;
+}
+
+#space h3 {
+   font-family: '5 Years Old';
+   color: #fff;
+   font-size: 2em;
+   margin: 0.4em 0;
+   z-index: 10;
+   position: relative;
+}
+
+@media screen and (max-width: 600px) {
+   #space h2 {
+      font-size: 2.2em;
+   }
    
-   /* background-image: url('/images/spaceduck.png'); */
-   background-size: contain;
-   background-repeat: no-repeat;
-
-   width: 14%;
-   height: 100px;
-
-   animation: moveSpaceShip 3s ease-in-out infinite;
-}
-
-.clouds {
-   position: absolute;
-
-   background-image: url('/images/clouds.png');
-   background-size: contain;
-   background-repeat: no-repeat;
-
-   width: 100%;
-   height: 300px;
-
-   animation: moveClouds 10s ease-in-out infinite;
-}
-
-@keyframes moveClouds {
-   0% {
-      left: -20px;
+   #space h3 {
+      font-size: 1.6em;
    }
 
-   50%  {
-      left: 20px;
-   }
-
-   100%  {
-      left: -20px;
-   }
-}
-
-@keyframes moveSpaceShip {
-   0% {
-      left: -10px;
-      top: -3px;
-      transform: scale(1);
-   }
-
-   50%  {
-      left: 10px;
-      top: 3px;
-      transform: scale(1.2);
-   }
-
-   100%  {
-      left: -10px;
-      top: -3px;
-      transform: scale(1);
+   #space p {
+      font-size: 1.2em;
    }
 }
