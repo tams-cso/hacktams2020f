@@ -1,18 +1,18 @@
 [
    {
+      "title": "What is a hackathon?",
+      "text": "A hackathon is a coding marathon where students come together to create an innovative project within only 48 hours! Projects include websites, mobile apps, machine learning apps, hardware, and more that cover a variety of topics such as COVID-19, saving the planet, improving daily tasks, etc. Your creativity is your only limitation!"
+   },
+   {
+      "title": "Unique Tracks",
+      "text": "hackTAMS will have two distinct tracks this year: Hack and Design. The Hack track is geared towards students who have an interest in computer science and those who want to build a working prototype. In other words, this is your typical hackathon competition. In contrast, the Design track is for students who do not enjoy programming but have a creative passion for making things! For this track, you need to submit a mockup of your project."
+   },
+   {
       "title": "Resources and Mentorship",
-      "text": "npm opens up an entire world of JavaScript talent for you and your team. It's the world's largest software registry, with approximately 3 billion downloads per week. The registry contains over 600,000 packages (building blocks of code). Open-source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well."
+      "text": "hackTAMS plans to support hackers virtually by providing interesting technical workshops and access to personalized mentorship. These resources will be available to everyone free of cost and are an amazing way to learn something new and perhaps apply your knowledge on your hackathon project!"
    },
    {
-      "title": "Vibrant Community",
-      "text": "If you just want to get started exploring npm, using the Node.js installation method is fastest. If you are an advanced developer ready to jump in and work with versions, use the node version manager. If you aren't sure, please read this chapter before you decide. You can always change how you run npm in the future."
-   },
-   {
-      "title": "Career Opportunies",
-      "text": "The prefix config defaults to the location where node is installed. On most systems, this is /usr/local. On Windows, it's %AppData%\npm. On Unix systems, it's one level up, since node is typically installed at {prefix}/bin/node rather than {prefix}/node.exe."
-   },
-   {
-      "title": "Unique Experiences",
-      "text": "To protect your packages, as a package publisher, you can require everyone who has write access to a package to provide a one-time password in addition to their login token when they publish the package to the registry or modify package settings."
+      "title": "Future Opportunities",
+      "text": "Although we hope you attend and enjoy our event, our main goal is to enable you as software engineers, graphic designers, data scientists, and mobile app developers to explore the world of hackathons. Through hackathons, you can find unique opportunities such as internships, networking, and resume building."
    }
 ]
