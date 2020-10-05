@@ -7,7 +7,7 @@ const Grass = () => (
       <div className='wrap'>
          <h2 style={{ marginTop: 100, textAlign: 'center' }}>Questions?</h2>
          <p style={{ textAlign: 'center' }}>
-            Check out our <a href='#'>Hacker's Guide</a> with FAQ or email jon@hacktams.org
+            Check out our <a href='# '>Hacker's Guide</a> with FAQ or email jon@hacktams.org
          </p>
          <div style={{ height: '30vh' }} />
       </div>
