@@ -9,7 +9,7 @@
    top: 0;
    left: 0;
    transform: rotate(0);
-   z-index: 10;
+   z-index: 31;
 
    animation: duckBounce 5s infinite;
    animation-timing-function: ease-in-out;
@@ -22,9 +22,9 @@
    background-repeat: no-repeat;
    background-position: center;
 
-   transition: top 5s, background-size 5s;
+   transition: top 3s, background-size 3s;
    transition-timing-function: ease-in-out;
-   transition-delay: 1.5s;
+   transition-delay: 0.5s;
 }
 
 .duck.inspace {

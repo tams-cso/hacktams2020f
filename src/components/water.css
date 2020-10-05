@@ -9,17 +9,16 @@
    position: absolute;
    bottom: calc(-100px - 30vh + 8vw);
    left: -70px;
-   z-index: 100;
+   z-index: 32;
 
    animation: moveWater 5s infinite;
    animation-timing-function: ease-in-out;
    
    transition: left 2s ease;
-   transition-delay: 1s;
 }
 
 .water.background {
-   z-index: 2;
+   z-index: 29;
 
    height: calc(400px + 20vh);
 
@@ -30,7 +29,7 @@
 }
 
 .water.far {
-   z-index: 2;
+   z-index: 28;
 
    height: 34vw;
    height: calc(450px + 20vh);
@@ -43,10 +42,12 @@
 
 .water.part-left {
    left: calc(-100vw - 140px - 100px) !important;
+   animation: none !important;
 }
 
 .water.part-right {
    left: calc(100vw + 140px + 100px) !important;
+   animation: none !important;
 }
 
 @keyframes moveWater {
