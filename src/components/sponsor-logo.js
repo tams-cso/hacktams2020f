@@ -10,7 +10,7 @@ const defaultSponsorAlts = [
 const getAlt = () => defaultSponsorAlts[Math.floor(Math.random * defaultSponsorAlts.length)]
 
 const SponsorLogo = (props) => (
-   <a href={props.url || '#'} className={'sponsor ' + props.size}>
+   <a href={props.url || '#'} target="_blank" rel="noopener noreferrer" className={'sponsor ' + props.size}>
       <img src={props.logo || '/images/spaceduck.png'} alt={props.alt || getAlt()} />
    </a>
 )
