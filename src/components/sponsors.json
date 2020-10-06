@@ -23,10 +23,28 @@
    ],
    "small": [
       {
+         "name": "repl.it",
+         "alt": "repl.it — In-kind Sponsor",
+         "url": "https://repl.it//",
+         "logo": "/images/sponsors/replit.svg"
+      },
+      {
          "name": "echoAR",
          "alt": "Echo AR — In-kind Sponsor",
          "url": "https://www.echoar.xyz/",
          "logo": "/images/sponsors/echoar.png"
+      },
+      {
+         "name": "Streamyard",
+         "alt": "Streamyard — In-kind Sponsor",
+         "url": "https://streamyard.com/",
+         "logo": "/images/sponsors/streamyard.svg"
+      },
+      {
+         "name": "Sashido",
+         "alt": "Sashido — In-kind Sponsor",
+         "url": "https://www.sashido.io/en/",
+         "logo": "/images/sponsors/sashido.png"
       },
       {
          "name": "Wolfram Language",
@@ -41,40 +59,28 @@
          "logo": "/images/sponsors/sticker-mule.svg"
       },
       {
-         "name": "Sashido",
-         "alt": "Sashido — In-kind Sponsor",
-         "url": "https://www.sashido.io/en/",
-         "logo": "/images/sponsors/sashido.png"
-      },
-      {
-         "name": "Streamyard",
-         "alt": "Streamyard — In-kind Sponsor",
-         "url": "https://streamyard.com/",
-         "logo": "/images/sponsors/streamyard.svg"
-      },
-      {
          "name": "Art of Problem Solving",
          "alt": "Art of Problem Solving — In-kind Sponsor",
          "url": "https://artofproblemsolving.com/",
          "logo": "/images/sponsors/aops.png"
       },
       {
-         "name": "repl.it",
-         "alt": "repl.it — In-kind Sponsor",
-         "url": "https://repl.it//",
-         "logo": "/images/sponsors/replit.svg"
-      },
-      {
          "name": "Interview Cake",
          "alt": "Interview Cake — In-kind Sponsor",
          "url": "https://www.interviewcake.com/",
-         "logo": "/images/sponsors/interview-cake-2.png"
+         "logo": "/images/sponsors/interview-cake.png"
       },
       {
-         "name": "A Supporter",
-         "alt": "A Supporter — Silver Sponsor",
-         "url": "https://nationalpoetryday.co.uk/poem/high-flight/",
-         "logo": "/images/sponsors/a-supporter.png"
+         "name": "1Password",
+         "alt": "1Password - In-kind Sponsor",
+         "url": "https://1password.com/",
+         "logo": "/images/sponsors/1password.png"
+      },
+      {
+         "name": "Egghead",
+         "alt": "Egghead - In-kind Sponsor",
+         "url": "https://egghead.io",
+         "logo": "/images/sponsors/egghead.png"
       }
    ]
 }
