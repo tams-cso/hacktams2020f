@@ -29,6 +29,18 @@
          "logo": "/images/sponsors/echoar.png"
       },
       {
+         "name": "Streamyard",
+         "alt": "Streamyard — In-kind Sponsor",
+         "url": "https://streamyard.com/",
+         "logo": "/images/sponsors/streamyard.svg"
+      },
+      {
+         "name": "Sashido",
+         "alt": "Sashido — In-kind Sponsor",
+         "url": "https://www.sashido.io/en/",
+         "logo": "/images/sponsors/sashido.png"
+      },
+      {
          "name": "Wolfram Language",
          "alt": "Wolfram Language — In-kind Sponsor",
          "url": "https://www.wolfram.com/language/",
@@ -41,22 +53,22 @@
          "logo": "/images/sponsors/sticker-mule.svg"
       },
       {
-         "name": "Sashido",
-         "alt": "Sashido — In-kind Sponsor",
-         "url": "https://www.sashido.io/en/",
-         "logo": "/images/sponsors/sashido.png"
-      },
-      {
-         "name": "Streamyard",
-         "alt": "Streamyard — In-kind Sponsor",
-         "url": "https://streamyard.com/",
-         "logo": "/images/sponsors/streamyard.svg"
-      },
-      {
          "name": "Art of Problem Solving",
          "alt": "Art of Problem Solving — In-kind Sponsor",
          "url": "https://artofproblemsolving.com/",
          "logo": "/images/sponsors/aops.png"
+      },
+      {
+         "name": "Interview Cake",
+         "alt": "Interview Cake — In-kind Sponsor",
+         "url": "https://www.interviewcake.com/",
+         "logo": "/images/sponsors/interview-cake-2.png"
+      },
+      {
+         "name": "1Password",
+         "alt": "1Password - In-kind Sponsor",
+         "url": "https://1password.com/",
+         "logo": "/images/sponsors/1password.png"
       },
       {
          "name": "repl.it",
@@ -65,10 +77,16 @@
          "logo": "/images/sponsors/replit.svg"
       },
       {
-         "name": "Interview Cake",
-         "alt": "Interview Cake — In-kind Sponsor",
-         "url": "https://www.interviewcake.com/",
-         "logo": "/images/sponsors/interview-cake-2.png"
+         "name": "Egghead",
+         "alt": "Egghead - In-kind Sponsor",
+         "url": "https://egghead.io",
+         "logo": "/images/sponsors/egghead.png"
+      },
+      {
+         "name": "Hack Club Bank",
+         "alt": "Hack Club Bank - Fiscal Sponsor",
+         "url": "https://hackclub.com/bank/",
+         "logo": "/images/sponsors/hackclubbank.svg"
       },
       {
          "name": "A Supporter",
