@@ -23,12 +23,6 @@
    ],
    "small": [
       {
-         "name": "repl.it",
-         "alt": "repl.it — In-kind Sponsor",
-         "url": "https://repl.it//",
-         "logo": "/images/sponsors/replit.svg"
-      },
-      {
          "name": "echoAR",
          "alt": "Echo AR — In-kind Sponsor",
          "url": "https://www.echoar.xyz/",
@@ -68,7 +62,7 @@
          "name": "Interview Cake",
          "alt": "Interview Cake — In-kind Sponsor",
          "url": "https://www.interviewcake.com/",
-         "logo": "/images/sponsors/interview-cake.png"
+         "logo": "/images/sponsors/interview-cake-2.png"
       },
       {
          "name": "1Password",
@@ -77,10 +71,28 @@
          "logo": "/images/sponsors/1password.png"
       },
       {
+         "name": "repl.it",
+         "alt": "repl.it — In-kind Sponsor",
+         "url": "https://repl.it//",
+         "logo": "/images/sponsors/replit.svg"
+      },
+      {
          "name": "Egghead",
          "alt": "Egghead - In-kind Sponsor",
          "url": "https://egghead.io",
          "logo": "/images/sponsors/egghead.png"
+      },
+      {
+         "name": "Hack Club Bank",
+         "alt": "Hack Club Bank - Fiscal Sponsor",
+         "url": "https://hackclub.com/bank/",
+         "logo": "/images/sponsors/hackclubbank.svg"
+      },
+      {
+         "name": "A Supporter",
+         "alt": "A Supporter — Silver Sponsor",
+         "url": "https://nationalpoetryday.co.uk/poem/high-flight/",
+         "logo": "/images/sponsors/a-supporter.png"
       }
    ]
 }
