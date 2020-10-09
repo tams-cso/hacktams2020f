@@ -3,6 +3,11 @@
    src: url('/fonts/5yearsoldfont/5yearsoldfont.ttf');
 }
 
+@font-face {
+   font-family: 'Grandstander';
+   src: url('/fonts/grandstander/Grandstander-Regular.ttf');
+}
+
 /* @font-face {
    font-family: '7 Hours';
    src: url('/fonts/7-Hours/7hours.ttf');
