@@ -19,6 +19,6 @@
    font-size: 1.3em;
 }
 
-.answer a {
-   color: #FBCA03 !important;
+.answer {
+   font-family: 'Grandstander';
 }
