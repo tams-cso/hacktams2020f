@@ -19,7 +19,7 @@ const App = () => (
       <Route path='/register'>
         <RegistrationForm />
       </Route>
-      <Route path='/volunteer'>
+      <Route path='/mentor'>
         <VolunteerForm />
       </Route>
       <Route path='/'>

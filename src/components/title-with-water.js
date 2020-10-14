@@ -11,7 +11,7 @@ const TitleWithWater = (props) => (
       <div className='titleWithWater'>
          <Title />
          <Link to='/register' className='button'>Register Now!</Link>
-         <Link to='/volunteer' className='under-button'>Volunteer/Mentor</Link>
+         <Link to='/mentor' className='under-button'>Become a Mentor</Link>
          <ScrollIndicator />
          <Water far part={props.sceneIndex !== 0 ? 'left' : 'none'} />
          <Water background part={props.sceneIndex !== 0 ? 'right' : 'none'}/>
