@@ -10,6 +10,7 @@ const TitleWithWater = (props) => (
    <div className='wrap'>
       <div className='titleWithWater'>
          <Title />
+         <a href='https://live.hacktams.org' className='button' target='_blank' rel="noopener noreferrer">Live Site!</a>
          <Link to='/register' className='button'>Register Now!</Link>
          <Link to='/mentor' className='under-button'>Become a Mentor</Link>
          <ScrollIndicator />
