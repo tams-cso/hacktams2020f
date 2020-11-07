@@ -12,6 +12,7 @@ import Landing from './components/landing';
 
 import RegistrationForm from './components/RegistrationForm/registration-form';
 import VolunteerForm from './components/VolunteerForm/volunteer-form';
+import SwagForm from './components/SwagForm/swag-form.js';
 
 const App = () => (
   <Router>
@@ -21,6 +22,9 @@ const App = () => (
       </Route>
       <Route path='/mentor'>
         <VolunteerForm />
+      </Route>
+      <Route path='/swag'>
+        <SwagForm />
       </Route>
       <Route path='/'>
         <div>
